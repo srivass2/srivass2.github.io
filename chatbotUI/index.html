@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chatbot-container">
+        <header class="chatbot-header">
+            <img src="chatbot avatar.png" alt="CA640TA Logo" class="logo">
+            <h1>CA640TA</h1>
+        </header>
+        <div class="chatbot-welcome">
+            <p>👋 Welcome! I'm here to help you with your questions. Feel free to ask anything!</p>
+            <p>For best results, ask clear and concise questions. Response time may vary.</p>
+        </div>
+        <div class="chatbot-message-area">
+            <div id="chat-window" class="chat-window"></div>
+            <input type="text" id="message-input" placeholder="Type your message here..." class="message-input">
+            <button id="send-button" class="send-button">Send</button>
+            <button id="clear-chat" class="clear-chat">Clear chat</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
